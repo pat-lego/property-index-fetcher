@@ -1,0 +1,5 @@
+{
+    "user.mapping": [
+        "pindex.core:pindex-fetcher=pindex-fetcher"
+    ]
+}

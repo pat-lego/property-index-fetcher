@@ -1,0 +1,9 @@
+{
+    "scripts": [
+        "create service user pindex-fetcher with path /home/users/system/cq:services/internal",
+        "set ACL on /oak:index\n    allow jcr:read for pindex-fetcher\nend",
+        "set ACL on /content\n    allow jcr:read for pindex-fetcher\nend",
+        "set ACL on /conf\n    allow jcr:read for pindex-fetcher\nend",
+        "set ACL on /home\n    allow jcr:read for pindex-fetcher\nend"
+    ]
+}
